@@ -1,5 +1,4 @@
 build
 CMakeUserPresets.json
 src/output
-.vscode
 .cache
