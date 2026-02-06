@@ -1,0 +1,12 @@
+CompileFlags:
+  CompilationDatabase: build/Release
+  Add:
+    - -Wall
+    - -Wextra
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      - performance-*
+      - readability-*
+      - bugprone-*
